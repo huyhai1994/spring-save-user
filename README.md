@@ -1,8 +1,17 @@
-#[Thực hành] Đếm số lượt view trang (v.2023)
+# [Thực hành] Lưu tên người dùng sử dụng Cookie (v.2023)
 ## Mục tiêu
 
-    - Luyện tập triển khai cơ chế session trong Spring MVC
+    - Luyện tập thao tác với Cookie trong ứng dụng Spring MVC.
+## Điều kiện
+
+    - Có kiến thức và nắm bắt được cách sử dụng Cookie trong Spring MVC.
 ## Mô tả
 
-    - Trong phần này, chúng ta sẽ triển khai một tính năng cho phép ghi nhận số lần người dùng truy cập trang web trong một phiên làm việc.
-    - Ứng dụng sẽ ghi nhận và hiển thị số lần truy cập. Khi người dùng truy cập vào một trang trong ứng dụng thì số lần truy cập sẽ tăng lên.
+    - Trong phần này, chúng ta sẽ phát triển một tính năng cho phép người dùng đăng nhập ứng dụng và lưu lại tên người dùng cho lần đăng nhập tiếp theo nếu đăng nhập thành công.
+
+    - Các bước của tính năng bao gồm:
+
+        Người dùng đăng nhập hệ thống.
+         Người dùng rời khỏi hệ thống (tắt trình duyệt hoặc đăng xuất).
+        Người dùng mở lại trang web và tên người dùng đã được nhập sẵn.
+
